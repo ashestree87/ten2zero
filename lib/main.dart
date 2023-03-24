@@ -53,6 +53,7 @@ class _CountdownAppState extends State<CountdownApp>
   Widget build(BuildContext context) {
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: []);
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.black,
         body: SafeArea(
